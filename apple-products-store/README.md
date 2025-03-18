@@ -1,12 +1,50 @@
-# React + Vite
+# 🍏 Apple Products Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **fictitious Apple store** project, developed with **React.js**, **Tailwind CSS**, and **Vite**.
 
-Currently, two official plugins are available:
+🚀 **Objective**: Practice **React** and **Tailwind CSS** by building a store interface inspired by Apple's design. This is a **training project**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
 
-## Expanding the ESLint configuration
+- **💨 Vite**: Ultra-fast development environment.
+- **⚛️ React.js**: Component-based UI and state management.
+- **🎨 Tailwind CSS 4.0**: Modern and responsive styling.
+- **📦 Boxicons**: Icons used for UI elements.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 **Acknowledgments**
+
+Code and Create
+
+## 📦 Installation & Setup
+
+Clone the project and install dependencies:
+
+```bash
+# Clone the repository
+git clone https://github.com/sadournyg/appleProducts.git
+
+cd apple-products-store
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## ✨ Main Features
+
+- 📌 **Dynamic sidebar navigation** with active page highlighting.
+- 🖼️ **Smooth page transitions** for a fluid user experience.
+- 📱 **Responsive Design** for seamless adaptation on mobile, tablet, and desktop.
+- 🎨 **Dynamic color and model selection** for MacBook and iMac.
+- 🔍 **Zoom effect** on product pages for detailed viewing.
+
+## 🧑‍💻 Author
+
+**Guillaume Sadourny**  
+Aspiring Full Stack Developer  
+[linkedIn](https://www.linkedin.com/in/guillaume-sadourny/)  
+💬 Feel free to fork, star, or contribute! 🚀
