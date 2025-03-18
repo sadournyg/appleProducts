@@ -50,7 +50,7 @@ const Navbar = ({ activePage, handleNavClick, isNavbarOpen, toggleNavbar }) => {
         </div>
       </div>
       <button
-        className="fixed md:hidden bottom-4 left-4 p-2 text-4xl text-blue-400 z-30"
+        className="absolute md:hidden bottom-4 left-4 p-2 text-4xl text-blue-400 z-30"
         onClick={toggleNavbar}
       >
         {isNavbarOpen ? (
