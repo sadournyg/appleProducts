@@ -68,18 +68,14 @@ const MacBook = () => {
             className="w-12 h-12 2xl:mb-2 xl:mb-2"
           />
           <div className="2xl:mb-4 xl:mb-2 text-center md:text-left">
-            <p className="2xl:text-lg xl:text-base font-semibold text-gray-800 mb-0.5">
-              8-Core CPU
-            </p>
-            <p className="2xl:text-lg xl:text-base font-semibold text-gray-800 mb-0.5">
-              8-Core CPU
-            </p>
-            <p className="2xl:text-lg xl:text-base font-semibold text-gray-800 mb-0.5">
-              8-Core CPU
-            </p>
-            <p className="2xl:text-lg xl:text-base font-semibold text-gray-800 mb-0.5">
-              8-Core CPU
-            </p>
+            {currentMb.specs.map((spec, index) => (
+              <p
+                key={index}
+                className="2xl:text-lg xl:text-base font-semibold text-gray-800 mb-0.5"
+              >
+                {spec}
+              </p>
+            ))}
           </div>
           <button
             type="button"
