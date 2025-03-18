@@ -10,7 +10,9 @@ const Iphone = () => {
         {iphoneModels.map((iphone, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-between gap-y-2"
+            className={`flex flex-col items-center justify-between gap-y-2 ${
+              index === 2 ? "hidden md:flex" : ""
+            }`}
           >
             <img
               src={iphone.img}

@@ -9,7 +9,11 @@ const Watch = () => {
       </h1>
       <div className="w-full flex justify-around">
         {watchModels.map((watch, index) => (
-          <div className="w-60 h-[430px] flex flex-col justify-around group">
+          <div
+            className={`w-60 h-[430px] flex flex-col justify-around group ${
+              index === 2 ? "hidden md:flex" : ""
+            }`}
+          >
             <div
               key={index}
               className="w-full h-64 mb-4 overflow-hidden relative"
