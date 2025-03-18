@@ -20,7 +20,10 @@ const Navbar = ({ activePage, handleNavClick, isNavbarOpen, toggleNavbar }) => {
               key={index}
               href="#"
               className="xl:w-36 lg:w-32 w-30 flex items-center justify-between my-3.5 text-left cursor-pointer"
-              onClick={() => handleNavClick(index)}
+              onClick={() => {
+                handleNavClick(index);
+                toggleNavbar();
+              }}
             >
               <i className={`${item.icon} text-xl text-pink-400`}></i>
               <span className="text-sm text-gray-500 mr-auto mx-2.5 tracking-wider">
